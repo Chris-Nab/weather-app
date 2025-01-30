@@ -92,26 +92,20 @@
   }
 
 
-  /* .cities {
-    display: grid;
-    grid-gap: 32px 20px;
-    grid-template-columns: repeat(4, 1fr);
-  } */
-
   .cities{
     margin-top: 15%;
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-
   }
 
   .city{
     background-color: #fff;
     border: solid black;
     border-radius: 5%;
-    width: 16%;
+    max-width: 220px;
+    min-width: 220px;
     padding: 20px;
     color: grey;
   }
