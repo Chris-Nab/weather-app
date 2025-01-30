@@ -108,6 +108,8 @@
     min-width: 220px;
     padding: 20px;
     color: grey;
+    min-height: 280px;
+    max-height: 280px;
   }
 
 .city-temp{
