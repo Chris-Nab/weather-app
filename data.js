@@ -15,6 +15,17 @@ form.addEventListener("submit", (e) => {
     return;
   }
 
+  const existingCities = document.querySelectorAll(".city-name span");
+  const cityExists = Array.from(existingCities).some(
+    (city) => city.textContent.toLowerCase() === inputVal.toLowerCase()
+  );
+
+  if (cityExists) {
+    msg.textContent = "City is already added!";
+    return;
+  }
+
+
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=metric`;
 
   fetch(url)
