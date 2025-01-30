@@ -133,7 +133,7 @@ figcaption{
 }
 
 html{
-  background: linear-gradient(142deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
--webkit-background: linear-gradient(142deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
--moz-background: linear-gradient(142deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
+  background: linear-gradient(176deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
+-webkit-background: linear-gradient(176deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
+-moz-background: linear-gradient(176deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
 }
