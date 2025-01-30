@@ -92,22 +92,43 @@
   }
 
 
-  @media screen and (max-width: 1000px) { 
-    .ajax-section .cities {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  @media screen and (max-width: 700px) {
-    .ajax-section .cities {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media screen and (max-width: 500px) {  
-    .ajax-section .cities {
-      grid-template-columns: repeat(1, 1fr);
-    }
+  /* .cities {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(4, 1fr);
+  } */
+
+  .cities{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
   }
 
-  .card-container{
-    
+  .city{
+    background-color: #fff;
+    border: solid black;
+    border-radius: 5%;
+    width: 16%;
+    padding: 20px;
+    color: grey;
   }
+
+.city-temp{
+  color: black;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+figcaption{
+  text-transform: uppercase;
+}
+ 
+.msg{
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
