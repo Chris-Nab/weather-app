@@ -101,6 +101,8 @@
     justify-content: flex-start;
     gap: 20px;
     flex-wrap: wrap;
+    margin-left: 5%;
+    padding: 0;
   }
 
   .city{
@@ -133,7 +135,7 @@ figcaption{
 }
 
 html{
-  background: linear-gradient(176deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
+background: linear-gradient(176deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
 -webkit-background: linear-gradient(176deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
 -moz-background: linear-gradient(176deg, rgba(0, 0, 0, 1), rgba(43, 43, 43, 1));
 }
