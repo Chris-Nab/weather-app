@@ -21,7 +21,7 @@ form.addEventListener("submit", (e) => {
   );
 
   if (cityExists) {
-    msg.textContent = "City is already added!";
+    msg.textContent = `You already know the weather for ${inputVal.toUpperCase()}`;
     return;
   }
 
